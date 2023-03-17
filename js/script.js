@@ -13,11 +13,12 @@ const FavoriteColor = prompt("Scrivi il tuo colore preferito");
 
 console.log( name , surname , FavoriteColor);
 
-
+const FavoriteNumber = 23;
 
 const outputStr = `
 Ciao ${name} ${surname} <br>
-Il tuo colore preferito è ${FavoriteColor}
+Il tuo colore preferito è ${FavoriteColor} <br>
+Il tuo numero preferito è ${FavoriteNumber}
 `
 console.log(outputStr);
 
